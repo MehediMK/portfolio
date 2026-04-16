@@ -98,7 +98,7 @@ export default function About() {
               transition={{ duration: 0.4, delay: 0.4 }}
             >
               <a
-                href="/mehedi-hasan-khan-resume.pdf"
+                href="/portfolio/mehedi-hasan-khan-resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 id="about-download-resume"
