@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { FiGithub, FiLinkedin, FiMail, FiArrowDown, FiBookOpen } from 'react-icons/fi'
+import { FiGithub, FiLinkedin, FiMail, FiArrowDown, FiArrowUpRight, FiBookOpen } from 'react-icons/fi'
 import ParticlesBg from './ParticlesBg'
 
 const socialLinks = [
@@ -88,6 +88,10 @@ export default function Hero() {
               <a href="#projects" className="btn btn-primary" id="hero-view-projects">
                 View Projects
                 <FiArrowDown size={16} />
+              </a>
+              <a href="https://www.mehedimk.site/" target="_blank" rel="noopener noreferrer" className="btn btn-outline" id="hero-latest-portfolio">
+                Latest Portfolio
+                <FiArrowUpRight size={16} />
               </a>
               <a href="mailto:mehedikhan.cse@gmail.com" className="btn btn-outline" id="hero-contact">
                 Get In Touch

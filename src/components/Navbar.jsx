@@ -69,7 +69,9 @@ export default function Navbar() {
               </motion.a>
             ))}
             <motion.a
-              href="mailto:mehedikhan.cse@gmail.com"
+              href="https://www.mehedimk.site/#contact"
+              target="_blank"
+              rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.98 }}
               style={{
